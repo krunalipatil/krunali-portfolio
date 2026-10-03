@@ -1,6 +1,5 @@
-/* =========================
-MOBILE MENU
-========================= */
+/* 
+MOBILE MENU*/
 
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
@@ -19,9 +18,9 @@ navLinks.classList.remove("show");
 });
 });
 
-/* =========================
+/*
 SCROLL ANIMATION
-========================= */
+ */
 
 const sections = document.querySelectorAll(".section");
 
@@ -52,9 +51,9 @@ sections.forEach((section) => {
 observer.observe(section);
 });
 
-/* =========================
+/* 
 ACTIVE NAVIGATION
-========================= */
+ */
 
 const pageSections = document.querySelectorAll("section[id]");
 
